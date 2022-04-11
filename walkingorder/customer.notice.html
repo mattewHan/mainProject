@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="no-js" lang="kor">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Walking Order</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg" />
+
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="css/bootstrap5.min.css" />
+    <link rel="stylesheet" href="css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- customer -->
+    <link rel="stylesheet" href="css/customer.all.css" />
+    <link rel="stylesheet" href="css/customer.notice.css" />
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css    ">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <script>
+        $(document).ready(function () {
+            var $test = $('#ming');
+            $(window).scroll(function () {
+                if ($(this).scrollTop > 10) {
+                    $test.addClass('scrolled');
+                }
+            });
+        });
+    </script>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            $('#headers').load("header.html");
+            $('#footers').load("footer.html");
+        });
+         //========= Hero Slider
+    </script>
+
+</head>
+
+<body>
+    <!-- header import -->
+    <div id="headers"></div>
+
+    <!-- 상담원 로고 -->
+    <div class="what" style="text-align:center"> 
+        <i class="lni lni-headphone-alt"></i>
+            <h4>고객센터</h4>
+            <h2>무엇을 도와드릴까요?</h2>
+    </div>
+
+    <!-- 고객센터 메뉴 -->
+    <div class="customer_menu" style="text-align:center" data-stats-ve="45">
+        <table class="table">
+            <ul>
+                <li>
+                    <a data-stats-id="kakaotalk" href="http://127.0.0.1:5501/walkingorder/customer.all.html">
+                        <span aria-hidden="true">
+                            <img src="">
+                        </span>
+                        <h3>전체</h3>
+                    </a>
+                </li>
+                <li>
+                    <a data-stats-id="kakaotalk" href="http://127.0.0.1:5501/walkingorder/customer.kakakotalk.html">
+                        <span aria-hidden="true">
+                            <img src="">
+                        </span>
+                        <h3>1ㄷ1 문의</h3>
+                    </a>
+                </li>
+                <li>
+                    <a data-stats-id="FAQ" href="http://127.0.0.1:5501/walkingorder/customer.FAQ.html">
+                        <span aria-hidden="true">
+                            <img src="">
+                        </span>
+                        <h3>FAQ</h3>
+                    </a>
+                </li>
+                <li>
+                    <a data-stats-id="notice" href="http://127.0.0.1:5501/walkingorder/customer.notice.html">
+                        <span aria-hidden="true">
+                            <img src="">
+                        </span>
+                        <h3>공지사항</h3>
+                    </a>
+                </li>
+                <li>
+                    <a data-stats-id="event" href="http://127.0.0.1:5501/walkingorder/customer.event.html">
+                        <span aria-hidden="true">
+                            <img src="">
+                        </span>
+                        <h3>이벤트</h3>
+                    </a>
+                </li>
+            </ul>
+        </table>
+    </div>
+
+
+    <!-- 상담원 로고 -->
+    <div class="what"> 
+        <h2><center>공지사항</center></h2>
+    </div>
+    
+    <table class="tlist01">
+        <colgroup>
+            <col style="width: 10%;">
+            <col><col style="width: 20%;">
+            <col style="width: 20%;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">NO.</th>
+                <th scope="col">제목</th>
+                <th scope="col">날짜</th>
+                <th scope="col">조회수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="display: none;">
+                <td colspan="4">
+                    <div class="nodata">
+                        <span>검색 결과가 없습니다.</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>71</span>
+                </td>
+                <td>
+                    <a>2021년 9월 20일(월) ~ 9월 22일(수) 추석 휴점 매장을 확인하세요.<em class=""></em></a>
+                </td>
+                <td>
+                    <span>2021-09-17</span>
+                </td>
+                <td>
+                    <span>873</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>70</span>
+                </td>
+                <td>
+                    <a>버거킹 스탬프 프로모션 종료 안내<em class=""></em></a>
+                </td>
+                <td>
+                    <span>2021-08-19</span>
+                </td>
+                <td>
+                    <span>908</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>69</span>
+                </td>
+                <td>
+                    <a>2021년 2월 11일(목) ~ 13일(토) 설날 휴점 매장을 확인하세요.<em class=""></em></a>
+                </td>
+                <td>
+                    <span>2021-02-09</span>
+                </td>
+                <td>
+                    <span>807</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>68</span>
+                </td>
+                <td>
+                    <a>버거킹 영상정보처리기기 운영관리방침 개정에 대해 안내<em class=""></em></a>
+                </td>
+                <td>
+                    <span>2020-09-24</span>
+                </td>
+                <td>
+                    <span>965</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>67</span>
+                </td>
+                <td>
+                    <a>버거킹 일부 제품 가격 인상 안내<em class=""></em></a>
+                </td>
+                <td>
+                    <span>2019-12-27</span>
+                </td>
+                <td>
+                    <span>3,581</span>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <span>66</span>
+                </td>
+                <td>
+                    <a>통모짜와퍼 원산지 안내<em class=""></em></a>
+                </td>
+                <td>
+                    <span>2019-08-23</span>
+                </td>
+                <td>
+                    <span>1,999</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>65</span>
+                </td>
+                <td>
+                    <a>버거킹 일부 제품 가격 조정 안내<em class=""></em></a>
+                </td>
+                <td>
+                    <span>2018-03-02</span>
+                </td>
+                <td>
+                    <span>9,439</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <!-- footer import -->
+    <div id="footers"></div>
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
